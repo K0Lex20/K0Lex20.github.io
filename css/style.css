@@ -1,0 +1,92 @@
+/*
+Error: Invalid CSS after "29px": expected expression (e.g. 1px, bold), was ";"
+        on line 264 of C:/Users/nazar/OneDrive/Desktop/project/src/sass/_general.sass
+        from line 5 of C:\Users\nazar\OneDrive\Desktop\project\src\sass\style.sass
+
+259:         &_plus
+260:             display: flex
+261:             justify-content: center
+262:             align-items: center
+263:             position: absolute
+264:             width: 29px;
+265:             height: 29px;
+266:             background: #000000;
+267:             margin: 0 auto
+268:             border-radius: 100%
+269:             bottom: 35px
+
+Backtrace:
+C:/Users/nazar/OneDrive/Desktop/project/src/sass/_general.sass:264
+C:\Users\nazar\OneDrive\Desktop\project\src\sass\style.sass:5
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/lexer.rb:231:in `expected!'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:761:in `assert_done'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:69:in `parse'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:228:in `parse'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/script.rb:27:in `parse'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:1177:in `parse_script'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:749:in `parse_property'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:708:in `parse_property_or_rule'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:667:in `parse_line'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:540:in `build_tree'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:559:in `block in append_children'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `each'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `append_children'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:549:in `block in build_tree'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:542:in `each'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:542:in `build_tree'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:559:in `block in append_children'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `each'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `append_children'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:549:in `block in build_tree'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:542:in `each'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:542:in `build_tree'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:559:in `block in append_children'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `each'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `append_children'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:549:in `block in build_tree'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:542:in `each'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:542:in `build_tree'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:559:in `block in append_children'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `each'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `append_children'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:417:in `_to_tree'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:321:in `to_tree'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `block in with_import'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `with_import'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+F:/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+F:/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+F:/Koala/bin/sass:22:in `load'
+F:/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"29px\": expected expression (e.g. 1px, bold), was \";\"\A         on line 264 of C:/Users/nazar/OneDrive/Desktop/project/src/sass/_general.sass\A         from line 5 of C:\Users\nazar\OneDrive\Desktop\project\src\sass\style.sass\A \A 259:         &_plus\A 260:             display: flex\A 261:             justify-content: center\A 262:             align-items: center\A 263:             position: absolute\A 264:             width: 29px;\A 265:             height: 29px;\A 266:             background: #000000;\A 267:             margin: 0 auto\A 268:             border-radius: 100%\A 269:             bottom: 35px"; }
